@@ -2,8 +2,13 @@
 
 int main()
 {
-    int age = 20;
-    int *pAge = &age;
+    // integer
+    int age = 20; // 4 bytes
+
+    // pointer to integer
+    int *pAge = &age; // 8 bytes
+
+    // pointer to pointer to integer
     int **ppAge = &pAge;
 
     printf("age = %d\n", age);
